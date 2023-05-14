@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 21.02.2023 18:32:56
-// Design Name: 
-// Module Name: CLA_AdderTree
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 module CLA_4bit(input [3:0]a, input [3:0]b, input c0, output [3:0]Sum, output Cout);
     wire P0, P1, P2, P3, G0, G1, G2, G3, c1, c2, c3;
     
