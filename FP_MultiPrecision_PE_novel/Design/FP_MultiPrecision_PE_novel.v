@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 21.02.2023 14:02:14
-// Design Name: 
-// Module Name: FP_MultiPrecision_PE_novel
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 module FP_MultiPrecision_PE_novel(input [159:0]A, input [159:0]B, input [2:0]mode, input clk, input clk_cntr, output reg [63:0]out);
     
