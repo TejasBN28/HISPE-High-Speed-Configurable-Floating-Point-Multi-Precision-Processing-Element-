@@ -1,23 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 21.02.2023 18:33:47
-// Design Name: 
-// Module Name: compressor7to2
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 module ele7to2(I0, I1, I2, I3, I4, I5, I6, Cin1, Cin2, Cout1, Cout2, Sum, Carry);
     input I0, I1, I2, I3, I4, I5, I6, Cin1, Cin2;
