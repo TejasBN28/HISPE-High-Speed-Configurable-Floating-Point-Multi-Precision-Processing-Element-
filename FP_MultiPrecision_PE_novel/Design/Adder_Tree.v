@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 21.02.2023 19:09:43
-// Design Name: 
-// Module Name: Adder_Tree
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 module ele4to2(input P0, input P1, input P2, input P3, input carry_in, output carry_out, output carry, output sum);
     wire w1, w2, w3;
     assign w1 = P1^P0;
